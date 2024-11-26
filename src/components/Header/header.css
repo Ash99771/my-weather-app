@@ -1,0 +1,109 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    background: rgb(119,118,120);
+    background: radial-gradient(circle, rgba(119,118,120,1) 0%, rgba(58,57,58,1) 100%);
+    position: relative;
+}
+.mobile-menu-button {
+    padding-left: 16px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.formContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.homePageForm{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+}
+.homePageForm > input{
+    width: 60%;
+    padding: 1% 2%;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+.homePageForm > button{
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #d0cece;
+}
+.homePageForm > button:hover{
+    color: #fcfcfc;
+    cursor: pointer;
+}
+.showWeatherButton {
+    margin-left: 16px;
+}
+.selects-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 8px;
+    background-color: #f4f4f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+.sort-select {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+    color: #555;
+    width: 50%;
+    cursor: pointer;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.sort-select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 6px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+.filter-input {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+    color: #555;
+    width: 50%;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.filter-input::placeholder {
+    color: #aaa;
+}
+.filter-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 6px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+@media screen and (max-width: 600px) {
+    .selects-container {
+        width: 80%;
+    }
+    .homePageForm {
+        margin-top: 16px;
+    }
+}

@@ -1,0 +1,101 @@
+.country-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.country-details {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: -50px;
+}
+
+.country-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #333;
+}
+
+.country-info-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+    text-align: left;
+}
+
+.country-info-list li {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #555;
+}
+
+.country-info-list strong {
+    color: #333;
+}
+
+.country-languages {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.languages-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+}
+
+.languages-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.language-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.language-item:hover {
+    background-color: #f0f8ff;
+    border-color: #007bff;
+}
+
+.weather-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.weather-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.weather-button:active {
+    background-color: #003f7f;
+    transform: translateY(0);
+}

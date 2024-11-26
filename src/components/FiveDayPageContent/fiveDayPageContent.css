@@ -1,0 +1,56 @@
+.fiveDayContentContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+}
+.fiveDayContentContainer > h2{
+    font-size: 80px;
+    margin: 0;
+    color: #fdfdfd;
+}
+.allDaysContainer{
+    display: flex;
+    width: 96%;
+    overflow: auto;
+    margin-top: 2%;
+    padding-left: 4%;
+    padding-bottom: 3%;
+}
+.allDaysContainer::-webkit-scrollbar{
+    height: 5px;
+    cursor: pointer;
+}
+.allDaysContainer::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+.allDaysContainer::-webkit-scrollbar-thumb {
+    background: #757474;
+}
+.oneDayDiv{
+    text-align: center;
+    margin-right: 65px;
+}
+.oneDayDiv > p{
+    font-size: 22px;
+    text-align: center;
+}
+.dayTitle{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+.dayTitle > div > img{
+    width: 75px;
+}
+.fiveDayMainTemp{
+    font-size: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    .fiveDayContentContainer > h2 {
+        font-size: 45px;
+        margin: 50px 0;
+    }
+}

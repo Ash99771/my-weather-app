@@ -1,0 +1,64 @@
+.contentContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+}
+.titleDiv{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 3%;
+}
+.cityName{
+    font-size: 100px;
+    color: #fdfdfd;
+}
+.weatherIcon > img{
+    width: 150px;
+}
+.weather{
+    font-size: 70px;
+    color: #dcdcdc;
+}
+.mainTemp{
+    font-size: 140px;
+    color: #414040;
+}
+.minMaxTemp{
+    display: flex;
+    gap: 40px;
+    font-size: 30px;
+    padding-left: 1%;
+}
+.pressureContainer{
+    display: flex;
+    gap: 40px;
+    padding-left: 1%;
+    margin-top: 1%;
+    font-size: 35px;
+}
+
+@media screen and (max-width: 600px) {
+    .titleDiv {
+        flex-direction: column;
+        margin-top: 16px;
+    }
+    .cityName {
+        font-size: 45px;
+    }
+    .weatherIcon > img {
+        width: 100px;
+    }
+    .mainTemp {
+        font-size: 70px;
+    }
+    .pressureContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        font-size: 35px;
+        margin-top: 16px;
+    }
+}

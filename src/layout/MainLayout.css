@@ -1,0 +1,6 @@
+.layout-container {
+    background-image: url("../assets/images/weatherAppBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
